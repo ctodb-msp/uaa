@@ -3,7 +3,7 @@
     "promptValues": {
       "packageName": "cn.ctodb.msp.uaa"
     },
-    "jhipsterVersion": "4.10.2",
+    "jhipsterVersion": "4.14.0",
     "baseName": "uaa",
     "packageName": "cn.ctodb.msp.uaa",
     "packageFolder": "cn/ctodb/msp/uaa",
@@ -27,6 +27,8 @@
     "testFrameworks": [],
     "jhiPrefix": "jhi",
     "clientPackageManager": "yarn",
-    "skipClient": true
+    "skipClient": true,
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true
   }
 }
